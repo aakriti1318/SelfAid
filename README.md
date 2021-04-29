@@ -40,10 +40,8 @@
 </ul>
 <h2> How to use? </h2>
 <p>For using the project clone the repository and type the following commands in the termial:</p>
-```$ set FLASK_APP= app.py```<br>
-```$ flask run```
+$ set FLASK_APP= app.py<br>
+$ flask run
 <h2> Want to Contribute? </h2>
 <p> You are most welcome , follow the above steps. </p>
-
-<br>
-<br> Made with ❤ 
+<br>                                                                          Made with ❤ 
