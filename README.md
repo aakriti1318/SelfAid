@@ -1,5 +1,5 @@
 <h1> SELFAID - STRESS/OCD RELIEVER WEB APPLICATION </h1>
-![demo](https://user-images.githubusercontent.com/56245613/116518260-a7bf9c00-a8ed-11eb-98d6-b037cdd33c1b.gif)
+![demo](https://github.com/aakriti1318/SelfAid/blob/main/demo.gif?raw=true)
 
 <h2> Introduction </h2>
 <p>This app promises you to feel a more balanced and more joyful life. The greatest weapon against stress is our ability to choose one thought over another. This app is primilarly designed for the people who are having stress, maybe due to work or due to family reasons or due to anything and for the people having OCD problem and wants to overcome their problem. <br></p>
