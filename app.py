@@ -1,13 +1,23 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pickle
+import jinja2
 
 app = Flask(__name__, template_folder='templates')
 model = pickle.load(open('finalized_model.pkl', 'rb'))
 output = -1
 user_log = 0
 
-with app.app_context(), app.test_request_context():
-    template = render_template('home')
+def render_without_request(template_name, **template_vars):
+    """
+    Usage is the same as flask.render_template:
+
+    render_without_request('my_template.html', var1='foo', var2='bar')
+    """
+    env = jinja2.Environment(
+        loader=jinja2.PackageLoader('name.ofmy.package','templates')
+    )
+    template = env.get_template(template_name)
+    return template.render(**template_vars)
 
 @app.route('/')
 def index():
