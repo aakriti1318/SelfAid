@@ -6,6 +6,8 @@ model = pickle.load(open('finalized_model.pkl', 'rb'))
 output = -1
 user_log = 0
 
+with app.app_context(), app.test_request_context():
+    template = render_template('home')
 
 @app.route('/')
 def index():
